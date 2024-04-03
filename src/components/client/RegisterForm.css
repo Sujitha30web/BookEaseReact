@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerForm{
+    border:2px solid;
+    padding: 40px;
+    border-radius: 30px;
+}
+.registerForm:hover
+{
+    /* border:2px solid; */
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow:1px 1px 8px 8px rgb(182, 181, 181);
+
+}
+
+input{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.registerButton
+{
+        border: none;
+        width: 160px;
+        height: 35px;
+        background-color: rgb(61, 104, 224);
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        margin-left:5px
+}

@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap:30px;   
+    margin-bottom: 50px;
+}
+
+.registerForm{
+    border: none;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    border-radius: 1rem;
+}
+
+.registerForm:hover
+{
+    box-shadow:1px 1px 7px 7px rgb(182, 181, 181);
+
+}
